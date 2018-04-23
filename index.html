@@ -25,14 +25,14 @@
             <h3>Customer Info</h3><br />
             
             <label for="name">Name:</label>
-            <input name="name" type="text" placeholder="Enter your name" required autofocus><br />
+            <input name="name" id="name" type="text" placeholder="Enter your name" required autofocus><br />
             
 <!--zrobić pattern-->
             <label for="tel">Telephone:</label>
-            <input name="tel" type="tel" placeholder="Pattern: 1-234-567-890" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br />
+            <input name="tel" id="tel" type="tel" placeholder="Pattern: 1-234-567-890" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br />
             
             <label for="email">Email adress:</label>
-            <input name="email" type="text" placeholder="Enter your email address" required>
+            <input name="email" id="email" type="text" placeholder="Enter your email address" required>
         </div>
         
         <div class="books">
@@ -40,7 +40,7 @@
             
             <input name="quanity" type="text">
             
-            <label for="quanity">Quanity (Max. 5):</label>
+            <label for="quanity" id="quanity">Quanity (Max. 5):</label>
             
             <select name="howMuch">
                 <option value="1">1</option>
