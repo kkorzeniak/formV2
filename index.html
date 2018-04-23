@@ -20,14 +20,15 @@
    
 
     <form action="https://formspree.io/korzeniak.kamil@gmail.com" method="POST" autocomplete="on">
-        
+    
+    <!--FORM TOP-->
+       
         <div class="customerInfo">
             <h3>Customer Info</h3><br />
             
             <label for="name">Name:</label>
             <input name="name" id="name" type="text" placeholder="Enter your name" required autofocus><br />
             
-<!--zrobić pattern-->
             <label for="tel">Telephone:</label>
             <input name="tel" id="tel" type="tel" placeholder="Pattern: 1-234-567-890" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br />
             
@@ -35,14 +36,16 @@
             <input name="email" id="email" type="text" placeholder="Enter your email address" required>
         </div>
         
+    <!--FORM BOTTOM-->
+       
         <div class="books">
             <h3>Books</h3>
             
-            <input name="quanity" type="text">
+            <input name="what" type="text">
             
-            <label for="quanity" id="quanity">Quanity (Max. 5):</label>
+            <label for="quanity">Quanity (Max. 5):</label>
             
-            <select name="howMuch">
+            <select name="howMuch" id="quanity">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
