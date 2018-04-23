@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 10px;
+    width: 700px;
+}
+
+/*HEADER*/
+
+h1, h2 {
+    margin: 0;
+    color: darkblue;
+}
+
+h2 {
+    color: rgb(144, 130, 222);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/*FORM*/
+
+.customerInfo, .books {
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    background-color: #fff;
+    padding: 2px;
+    letter-spacing: 1px;
+}
+
+input {
+    padding: 5px;
+}
+
+.customerInfo label {
+    padding: 10px;
+    margin-left: 60px
+}
+.customerInfo input {
+    margin: 5px 0;
+    width: 400px
+}
+
+.customerInfo input:last-child {
+    margin-bottom: 20px;
+}
+
+.books {
+    margin-bottom: 10px;
+}
+
+.books input:first-of-type {
+    margin: 16px 0px 16px 60px;
+    width: 400px;
+}
+
+.books select{
+    margin: 16px 5px;
+    width: 50px;
+}
+
+
+
+
+
+
+

@@ -2,11 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Form</title>
     
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
+<div class="container">   
+ 
+<!--HEADER-->
+    <header>
+        <h1>A Simple Form</h1>
+        <h2>Form Fundamentals</h2>
+    </header>
+
+<!--FORM-->
+   
+
+    <form action="https://formspree.io/korzeniak.kamil@gmail.com" method="POST" autocomplete="on">
+        
+        <div class="customerInfo">
+            <h3>Customer Info</h3><br />
+            
+            <label for="name">Name:</label>
+            <input name="name" type="text" placeholder="Enter your name" required autofocus><br />
+            
+<!--zrobić pattern-->
+            <label for="tel">Telephone:</label>
+            <input name="tel" type="tel" placeholder="Pattern: 1-234-567-890" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br />
+            
+            <label for="email">Email adress:</label>
+            <input name="email" type="text" placeholder="Enter your email address" required>
+        </div>
+        
+        <div class="books">
+            <h3>Books</h3>
+            
+            <input name="quanity" type="text">
+            
+            <label for="quanity">Quanity (Max. 5):</label>
+            
+            <select name="howMuch">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+         
+        <input type="submit">
+        
+    </form>
+</div>
+ 
     
 </body>
 </html>
